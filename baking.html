@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title></title>
+ <style>
+ 
+ body {
+ color:indigo;
+ background-color:tomato;
+ background-position: center;
+ font-family: Georgia, times, serif;
+ line-height: 1.4em;
+ margin: 0px;
+ }
+ 
+ 
+ .wrapper {
+ width: 940px;
+ margin: 20px auto 20px auto;
+ border: 2px solid red;
+ background-color: white;
+ }
+ 
+ .wrapper img{
+     margin:30px;
+     }
+ 
+ header {
+ height:60px;
+ color:black;
+ background-color: chocolate;
+ margin:2px;
+ padding:5px;
+ text-align:center;
+ 
+ }
+nav, footer {
+ clear: both;
+ color: purple;
+ background-color: cyan;
+ height: 50px;
+ text-align:center;
+ margin-top:4px;
+ }
+ 
+ nav li{
+     display:inline-block;
+     background-color:sienna;
+     text-align:center;
+     margin-right:2px;
+     padding:5px 5px 5px 5px;
+     margin-bottom:2px;
+     margin-top:1px;
+     position:relative;
+     border-radius:10px;
+     
+  }
+ nav ul li:hover{
+     background:blue;
+  }
+  
+  nav ul ul{
+      display:none;
+      }
+      
+   nav ul li:hover>ul{
+       display:block;
+       position:absolute;
+       top:100%;
+       left:-42px;
+       min-width:50px;
+       z-index:99;
+    }
+    
+    nav .submenu{
+        margin:opx auto;
+        padding:0px 2px;
+        
+        }
+ 
+ 
+ 
+ footer {
+ font-size: 80%;
+ padding: 7px 0px 0px 20px;
+ text-align:center;
+ margin-bottom:4px;
+ }
+ 
+ </style>
+</head>
+<body>
+ <div class="wrapper">
+ <header><h2>B.B's kitchen</h2>
+ 
+  </header>
+  
+ <nav>
+ <ul>
+ <li><a href="HOME.html">HOME</a></li>
+ <li><a href="">CLASSES</a>
+     <ul>
+     <a href="baking.html"><li>Baking and pastry</li></a>
+     <a href="traditional.html"><li>Traditional cuisine</li></a>
+     <a href="international.html"><li>International cuisine</li></a>
+     
+     
+     </ul>
+ </li>
+ <li><a href="catering.html">CATERING</a></li>
+ <li><a href="About.html">ABOUT</a></li>
+ <li><a href="contact.html">CONTACTS</a></li>
+ </ul>
+ </nav>  
+
+ <div id="">
+ <a href="birthday cake"><img src="IMG-20170920-WA0027.jpg" width="400px" height="300px"/></a>
+ <a href="sand art cake"><img src="Sand-Art-Cake-5.jpg" width="400px" height="300px"/></a>
+ <a href="burger cake"><img src="burgercake.jpg" width="400px" height="300px"/></a>
+ <a href="cup cake"><img src="cake.jpg" width="400px" height="300px"/></a>
+ 
+ 
+ 
+ </div>
+ <footer>
+ &copy; m.bb.farouk 2017
+ </footer>
+ </div><!-- .wrapper -->
+</body>
+</html> 

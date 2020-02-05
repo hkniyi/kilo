@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8"/>
+<meta name="keywords" content="html5 element,css,java script,web design, web development"/>
+<meta name="description" content=""/>
+<meta name="author" content="majida bb farouk"/>
+
+<title></title>
+<style>
+
+ body {
+ color:indigo;
+ background-color:tan;
+ background-position: center;
+ font-family: Georgia, times, serif;
+ line-height: 1.4em;
+ margin: 0px;
+ }
+
+div.clear{
+     clear:both;
+     } 
+
+div#parent{
+    background:;
+    position:relative;
+    }
+   
+   header {
+ height:60px;
+ color:white;
+ background-color:peru;
+ margin:2px;
+ padding:5px;
+ text-align:center;
+ 
+ }
+  nav{
+ clear: both;
+ color: purple;
+ background-color: cyan;
+ height: 50px;
+ text-align:center;
+ margin-top:2px;
+
+ 
+ }
+ 
+ nav li{
+     display:inline-block;
+     background-color:sienna;
+     text-align:center;
+     margin-right:2px;
+     padding:5px 5px 5px 5px;
+     margin-bottom:2px;
+     margin-top:1px;
+     position:relative;
+     border-radius:10px;
+     
+     
+  }
+ nav ul li:hover{
+     background:tomato;
+      text-decoration:none;
+    
+  }
+  
+  nav ul ul{
+      display:none;
+      }
+      
+   nav ul li:hover>ul{
+       display:block;
+       position:absolute;
+       top:100%;
+       left:-45px;
+       min-width:50px;
+       z-index:99;
+    }
+    
+    nav .submenu{
+        margin:opx auto;
+        padding:0px 2px;
+        
+        }
+ 
+ 
+ 
+ 
+ 
+  
+div#parent div{
+    width:320px;
+    height:300px;
+    margin-bottom:10px;
+   
+    
+    }
+    
+     div#h2{
+        text-alin:center;
+         }
+ 
+    
+    
+ div#child1{
+    background:pink;
+    font-family: Georgia, times, serif;
+    text-align:center;
+    margin-left:90px;
+    border-radius:40px;
+ }   
+
+div#child2{
+     background:purple;
+     position:absolute;
+     top:110px;
+     left:100px;
+    font-family: Georgia, times, serif;
+    text-align:center;
+    color:white;
+    margin-left:90px;
+     border-radius:40px;
+     
+ }   
+
+
+</style>
+</head>
+<body>
+<div id="wrapper">
+
+
+<div class="wrapper">
+ <header><h2>B.B's kitchen</h2>
+ 
+  </header>
+
+<nav>
+ <ul>
+ <li><a href="HOME.html">HOME</a></li>
+ <li><a href="">CLASSES</a>
+     <ul>
+     <a href="baking.html"><li>Baking and pastry</li></a>
+     <a href="traditional.html"><li>Traditional cuisine</li></a>
+     <a href="international.html"><li>International cuisine</li></a>
+     
+     
+     </ul>
+ </li>
+ <li><a href="catering.html">CATERING</a></li>
+ <li><a href="About.html">ABOUT</a></li>
+ <li><a href="contact.html">CONTACTS</a></li>
+ </ul>
+ </nav> 
+ 
+
+
+  <div id="parent">
+  
+  <div id="child1"><h3>About my kitchen </h3>
+  <p>B.B's kitchen is a wonderful and very cool place where people can enjoy a delicious  traditional Hausa vegetarian meals,
+</p><br />
+  
+  </div>
+  <div id="child2">
+  <p> and also is a place where we teaching you a selection of rice and Tuwo dishes. </p>
+ <p>  and how to create the most delicious sauces for use in a range of Hausa cookery. </p>
+ <p>We also offer birthday cake, cupcake icing and decorating stations to delight and entertain your guests</p>
+ <p> also we show you how to create beautifully designed cakes and cupcakes.</p>
+ <img src="cupcake.jpg" width="200px;" height="100px;" alt="" border="0" /> 
+ <img src="fruit-cake.jpg" width="200px;" height="100px;" alt="" border="0" /> 
+</div>
+ 
+
+</div><!-- end of wrapper-->
+
+
+
+</head>
+</body>
+</html>
